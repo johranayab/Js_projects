@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(175, 175, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.quiz-section {
+    background-color: white;
+    height: 30rem;
+
+    width: 30rem;
+
+}
+
+ul {
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+li {
+    height: 4rem;
+    width: 14rem;
+    border: 2px solid black;
+    display: flex;
+
+    text-align: center;
+    align-items: center;
+    border-top-left-radius: 50px;
+
+    border-bottom-left-radius: 50px;
+
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    cursor: pointer;
+
+}
+
+button {
+    background-color: rgb(143, 143, 213);
+    height: 2rem;
+    width: 6rem;
+    border-top-left-radius: 50px;
+
+    border-bottom-left-radius: 50px;
+
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-right: 70%;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+/* Style the result container */
+.result {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  /* Style the score heading */
+  .result h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the congratulatory message */
+  .result p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* Style the reload button */
+  .reload-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reload-button:hover {
+    background-color: #0056b3;
+  }
+  
