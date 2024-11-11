@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="char.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Real Time character Counter</h1>
+      <p>
+        Check your English text for grammar, spelling, and punctuation errors
+        with thapa technical real time char counter.
+      </p>
+
+      <textarea
+        id="textarea"
+        class="textarea"
+        placeholder="write your thoughts"
+        maxlength="150"
+      >
+      </textarea>
+      <button onclick="copyText()">Copy Text</button>.
+      <div class="counter-container">
+        <p> Total character <span id="total-conter">0</span></p>
+        <p> Remaining:
+            <span class="remaining-counter" id="remaining-count">150</span>
+        </p>
+      </div>
+    </div>
+
+    <script src="char.js"></script>
+  </body>
+</html>
