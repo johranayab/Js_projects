@@ -1,0 +1,61 @@
+.btn-btn{
+    background-color: rgb(142, 213, 125);
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+  gap: 2rem;
+    border: 2px solid black;
+
+
+}
+.h1{
+    border: 2px solid black;
+    width: 6rem;  
+    height: 3rem;
+    background-color: rgb(18, 18, 188);
+    cursor: pointer;
+   
+}
+.h2{
+    border: 2px solid black;
+    width: 6rem;  
+    height: 3rem;
+    background-color: rgb(208, 88, 44);
+    cursor: pointer;
+}
+.h3{
+    border: 2px solid black;
+    width: 6rem;  
+    height: 3rem;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+.h4{
+    border: 2px solid black;
+    width: 6rem;  
+    height: 3rem;
+    background-color: hotpink;
+    cursor: pointer;
+}
+.h5{
+    border: 2px solid black;
+    width: 6rem;  
+    height: 3rem;
+    background-color: rgb(194, 223, 99);
+    cursor: pointer;
+}
+.h6{
+    border: 2px solid black;
+    width: 6rem;  
+    height: 3rem;
+    background-color: rgb(185, 109, 218);
+    cursor: pointer;
+}
+.h7{
+    border: 2px solid black;
+    width: 6rem;  
+    height: 3rem;
+    background-color: rgb(248, 40, 40);
+    cursor: pointer;
+}
